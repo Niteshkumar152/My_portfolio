@@ -407,6 +407,7 @@ img{
     .showcase-form {
       justify-self: center;
       margin: auto;
+      padding:auto;
       animation: slideInFromBottom 1s ease-in;
     }
 }
