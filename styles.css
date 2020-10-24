@@ -56,7 +56,7 @@ a{
 h1,h2{
     font-weight: 300;
     line-height: 1.2;
-    margin:10px 0;
+    margin:5px 0;
 }
 
 p{
@@ -182,6 +182,11 @@ img{
     margin-bottom:100px;
 }
 
+.projects .grid {
+    font-size:20px;
+    font-weight: 200;
+}
+
 
 .techstack .card{
     text-align: center;
@@ -202,6 +207,7 @@ img{
 .techstack .card:hover{
     transform: translateY(-15px);
 }
+
 
 .footer .social a {
     margin: 0 10px;
@@ -240,6 +246,10 @@ img{
     border:none;
     margin-top: 45px;
     border-radius:5px;
+}
+
+.pill-button{
+    border-radius: 16px;
 }
 
 .btn-outline{
