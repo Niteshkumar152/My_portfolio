@@ -208,9 +208,21 @@ img{
     transform: translateY(-15px);
 }
 
-
+.gfg-color{
+    color: green;
+    font-weight: 400;
+}
 .footer .social a {
     margin: 0 10px;
+  }
+.writings{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+  .writings .img-round{
+    border-radius: 50%;
+    height: 15%;
+    width: 15%;
   }
 
 /*Classes all over used*/
@@ -245,7 +257,7 @@ img{
     background-color: var(--primary-color);
     color:#fff;
     border:none;
-    margin-top: 35px;
+    margin-top: 20px;
     border-radius:5px;
 }
 
@@ -405,11 +417,10 @@ img{
 @media (max-width: 768px) {
     .grid,
     .showcase .grid,
-    .stats .grid,
-    .techstack .grid{
+    .stats .grid{
       grid-template-columns: 1fr;
-      grid-template-rows: 1fr;
     }
+
   
     .showcase {
       height: auto;
