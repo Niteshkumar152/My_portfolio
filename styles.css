@@ -237,6 +237,19 @@ img{
     margin:10px;
 }
 
+.projects .card{
+    background-color: #fff;
+    color:#333;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    margin-left:15%;
+    margin-right: 15%;
+    padding:2%;
+    transition: 0.2s ease-out;
+}
+.projects .card:hover{
+    transform: translateY(-15px);
+}
 .btn{
     display: inline-block;
     padding: 10px 30px;
@@ -389,7 +402,8 @@ img{
 @media (max-width: 768px) {
     .grid,
     .showcase .grid,
-    .stats .grid{
+    .stats .grid,
+    .techstack .grid{
       grid-template-columns: 1fr;
       grid-template-rows: 1fr;
     }
@@ -407,7 +421,6 @@ img{
     .showcase-form {
       justify-self: center;
       margin: auto;
-      padding:auto;
       animation: slideInFromBottom 1s ease-in;
     }
 }
@@ -438,7 +451,6 @@ img{
   .showcase-form {
     justify-self: center;
     margin: auto;
-    padding:auto;
     animation: slideInFromBottom 1s ease-in;
   }
 
